@@ -1,0 +1,96 @@
+/*This stylesheet is for Kitten and Puppies index includes: parallax effect-scrolling images, navigation bar, centering text in header & paragraph*/
+body{
+    margin: 0;
+    padding:0;
+   
+}
+
+
+text{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -50%;
+    margin-left: -100%;
+}
+
+
+
+div{
+    height: 700px;
+/*background-color: grey;*/
+    margin: 0;
+    padding:0;
+    
+}
+
+.blue{
+/*    background-color: skyblue;*/
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.center{
+    color: chocolate;
+    width: 500px;
+    margin: 0 auto;
+    padding-top: 250px;
+}
+
+.centerp{
+    color: chocolate;
+    width: 500px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+p{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/*navigation list*/
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
+    
+}
+
+li{
+    float: left;
+    text-align: center;
+    color: orangered;
+    margin: 2px;
+    
+}
+
+li a{
+        display: block;
+    color: orange;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px 25px;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: darkred;
+}
+
+.righty{
+    float: right;
+}
+
+.active{
+    background-color: chocolate;
+}
